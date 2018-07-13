@@ -1,6 +1,6 @@
 Name:		fcode-utils
 Version:	1.0.2
-Release:	18.svn1354%{?dist}
+Release:	19.svn1354%{?dist}
 Summary:	Utilities for dealing with FCode
 Group:		Development/Languages
 # The entire source code is GPLv2 except localvalues/ and documentation/ which are CPL-licensed
@@ -52,6 +52,9 @@ make tests
 
 
 %changelog
+* Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1.0.2-19.svn1354
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Wed Feb 07 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1.0.2-18.svn1354
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
 
