@@ -2,7 +2,6 @@ Name:		fcode-utils
 Version:	1.0.2
 Release:	19.svn1354%{?dist}
 Summary:	Utilities for dealing with FCode
-Group:		Development/Languages
 # The entire source code is GPLv2 except localvalues/ and documentation/ which are CPL-licensed
 License:	GPLv2 and CPL
 URL:		http://www.openfirmware.info/FCODE_suite
