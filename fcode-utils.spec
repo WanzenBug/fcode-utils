@@ -13,6 +13,7 @@ Patch1:		fcode-utils-0001-Allow-overriding-some-more-Makefile-variables.patch
 # For tests only
 BuildRequires:  gcc
 BuildRequires:	tcsh
+BuildRequires: make
 
 
 %description
