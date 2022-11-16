@@ -1,13 +1,11 @@
 Name:		fcode-utils
-Version:	1.0.2
-Release:	27.svn1354%{?dist}
+Version:	1.0.3
+Release:	1
 Summary:	Utilities for dealing with FCode
 # The entire source code is GPLv2 except localvalues/ and documentation/ which are CPL-licensed
 License:	GPLv2 and CPL
 URL:		http://www.openfirmware.info/FCODE_suite
-## svn co http://code.coreboot.org/svn/openbios/trunk/fcode-utils-devel@1354 fcode-utils-1.0.2
-## tar --exclude-vcs -cvJf fcode-utils-1.0.2.tar.xz fcode-utils-1.0.2/
-Source0:	%{name}-%{version}.tar.xz
+Source0:	https://github.com/openbios/fcode-utils/archive/refs/tags/v%{version}.tar.gz
 # Fedora-specific patch
 Patch1:		fcode-utils-0001-Allow-overriding-some-more-Makefile-variables.patch
 # For tests only
